@@ -1,0 +1,9 @@
+.\objects\arm_fft_bin_data.o: ..\arm_fft_bin_data.c
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\CMSIS\Include\arm_math.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\arm_fft_bin_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
