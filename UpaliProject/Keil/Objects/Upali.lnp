@@ -2,10 +2,10 @@
 ".\objects\arm_fft_bin_data.o"
 ".\objects\main.o"
 ".\objects\mfcc.o"
-".\objects\startup_armcm4.o"
-".\objects\system_armcm4.o"
 "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\rvmdk\driverlib.lib"
 "C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+".\objects\startup_tm4c123.o"
+".\objects\system_tm4c123.o"
 --strict --scatter ".\Objects\Upali.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

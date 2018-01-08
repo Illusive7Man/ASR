@@ -22,16 +22,30 @@ Dialog DLL:      TCM.DLL V1.27.0.0
  
 <h2>Project:</h2>
 C:\Users\illus\Desktop\UpaliProject\Keil\Upali.uvprojx
-Project File Date:  11/26/2017
+Project File Date:  01/06/2018
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling mfcc.c...
 compiling main.c...
+..\parameters.h(96): warning:  #1-D: last line of file ends without a newline
+  };
+..\main.c(37): warning:  #161-D: unrecognized #pragma
+  #pragma DATA_ALIGN(ucControlTable, 1024)
+..\main.c(84): warning:  #550-D: variable "p"  was set but never used
+  	int i, j, k, p;
+..\main.c(89): warning:  #177-D: variable "power"  was declared but never referenced
+  	float32_t power = 0;
+..\main.c(377): warning:  #1-D: last line of file ends without a newline
+  }
+..\main.c(77): warning:  #177-D: variable "time"  was declared but never referenced
+  static uint32_t time = 0;
+..\main.c(78): warning:  #550-D: variable "a_old"  was set but never used
+  static float32_t a_old = 0;
+..\main.c: 7 warnings, 0 errors
 linking...
-Program Size: Code=9552 RO-data=6176 RW-data=8200 ZI-data=4288  
-".\Objects\Upali.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=10900 RO-data=8044 RW-data=5348 ZI-data=14356  
+".\Objects\Upali.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -40,6 +54,12 @@ Package Vendor: ARM
                 ARM::CMSIS:DSP:1.5.2
                 CMSIS (Cortex Microcontroller Software Interface Standard)
    * Component: DSP Version: 1.5.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil::Device:Startup:1.0.1
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_Target_1
@@ -51,7 +71,12 @@ Package Vendor: ARM
    * Component: ARM::CMSIS:DSP:1.5.2
       Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
       Include file:  CMSIS\Include\arm_math.h
-Build Time Elapsed:  00:00:02
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device\Source\system_TM4C123.c
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>

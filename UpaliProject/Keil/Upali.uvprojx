@@ -111,7 +111,7 @@
           <SimDllName>SARMCM3.DLL</SimDllName>
           <SimDllArguments>-MPU</SimDllArguments>
           <SimDlgDll>DCM.DLL</SimDlgDll>
-          <SimDlgDllArguments>-pCM4 -dLaunchPadDLL</SimDlgDllArguments>
+          <SimDlgDllArguments>-pCM4</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
           <TargetDllArguments>-MPU</TargetDllArguments>
           <TargetDlgDll>TCM.DLL</TargetDlgDll>
@@ -333,7 +333,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>ARM_MATH_CM4, __FPU_PRESENT = 1</Define>
+              <Define>ARM_MATH_CM4, __FPU_PRESENT = 1 PART_TM4C123GH6PM TARGET_IS_TM4C123_RB1</Define>
               <Undefine></Undefine>
               <IncludePath>../Include; C:\Keil_v5\ARM\CMSIS\Include; C:\ti\TivaWare_C_Series-2.1.4.178; ../</IncludePath>
             </VariousControls>
@@ -395,29 +395,24 @@
               <FilePath>..\settings.h</FilePath>
             </File>
             <File>
+              <FileName>melfilterconfig.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\melfilterconfig.h</FilePath>
+            </File>
+            <File>
               <FileName>mfcc.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\mfcc.c</FilePath>
             </File>
             <File>
-              <FileName>melfilterconfig.h</FileName>
+              <FileName>parameters.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\melfilterconfig.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>CMSIS Device</GroupName>
-          <Files>
-            <File>
-              <FileName>startup_ARMCM4.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\Source\ARM\startup_ARMCM4.s</FilePath>
+              <FilePath>..\parameters.h</FilePath>
             </File>
             <File>
-              <FileName>system_ARMCM4.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Source\system_ARMCM4.c</FilePath>
+              <FileName>forward.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\forward.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -434,6 +429,9 @@
         <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
+        <Group>
+          <GroupName>::Device</GroupName>
+        </Group>
       </Groups>
     </Target>
   </Targets>
@@ -447,8 +445,31 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
+      <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.1" condition="TM4C123x CMSIS">
+        <package name="TM4C_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="1.1.0"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
     </components>
-    <files/>
+    <files>
+      <file attr="config" category="source" condition="Compiler ARMCC" name="Device\Source\ARM\startup_TM4C123.s" version="1.0.0">
+        <instance index="0">RTE\Device\TM4C123GH6PM\startup_TM4C123.s</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.1" condition="TM4C123x CMSIS"/>
+        <package name="TM4C_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="1.1.0"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+      <file attr="config" category="source" name="Device\Source\system_TM4C123.c" version="1.0.1">
+        <instance index="0">RTE\Device\TM4C123GH6PM\system_TM4C123.c</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.1" condition="TM4C123x CMSIS"/>
+        <package name="TM4C_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="1.1.0"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </file>
+    </files>
   </RTE>
 
 </Project>
