@@ -1,6 +1,8 @@
 # ASR
 Automatic speech recognition for Tiva-C LaunchPad
 
+Het vordert goed
+
 Latest update: It is kind of working. Definitely a good start. It requires me to speak the keyword at a particular speed, which has to be fixed, and also precision and generality are not the best. 80% for the former and 70% for the latter. But, the important thing is it is currently using ~16KB of memory (out of 32KB), so a lot of space for improvement, and also I could fit in, time-wise, as many operations as I am currently using.
 
 All of the accompanying theory can be found here: http://www.ai.rug.nl/nl/vakinformatie/sr/articles/MSc-Thesis-MiMa-Clear-HMM-intro.pdf
