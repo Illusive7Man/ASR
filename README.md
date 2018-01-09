@@ -7,7 +7,7 @@ Latest update: It is kind of working. Definitely a good start. It requires me to
 
 All of the accompanying theory can be found here: http://www.ai.rug.nl/nl/vakinformatie/sr/articles/MSc-Thesis-MiMa-Clear-HMM-intro.pdf
 
-For speech recognition I am using Hidden Markov Model (HMM) with four states (Gaussian distributions), not previosly mention Mixture-of-Gaussians HMM, for which it was difficult to get the necessary training algorithm. 
+For speech recognition I am using Hidden Markov Model (HMM) with four states (Gaussian distributions), not previosly mentioned Mixture-of-Gaussians HMM, for which it was difficult to get the necessary training algorithm. 
 
 Features I have used to model speech are Mel-frequency cepstral coefficients (MFCCs). Twelve of them in total, 2nd-13th. No other data has been used, except for signal's FFT magnitudes to determine if any word has been spoken.
 
