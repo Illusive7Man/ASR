@@ -380,11 +380,6 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>arm_fft_bin_data.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\arm_fft_bin_data.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\main.c</FilePath>
