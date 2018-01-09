@@ -1,17 +1,16 @@
 # ASR
 Automatic speech recognition for Tiva-C LaunchPad
 
-WORK IN PROGRESS!
+Het vordert goed
 
-Finished with the MFCC. 
-ADC (with DMA) finished!
-Now, onto Forward Algorithm for Probabilty Evaluation. I will use the Baum–Welch algorithm for parameter reestimation. Python library that will do the job,called hmmlearn, is available online.
+Latest update: It is kind of working. Definitely a good start. It requires me to speak the keyword at a particular speed, which has to be fixed, and also precision and generality are not the best. 80% for the former and 70% for the latter. But, the important thing is it is currently using ~16KB of memory (out of 32KB), so a lot of space for improvement, and also I could fit in, time-wise, as many operations as I am currently using.
 
-03-Jan-2018: It should be done in a day or two.
+All of the accompanying theory can be found here: http://www.ai.rug.nl/nl/vakinformatie/sr/articles/MSc-Thesis-MiMa-Clear-HMM-intro.pdf
 
-Feature dependency has really halted progress. I will have to fix these singular matrices.
+For speech recognition I am using Hidden Markov Model (HMM) with four states (Gaussian distributions), not previosly mentioned Mixture-of-Gaussians HMM, for which it was difficult to get the necessary training algorithm. 
 
-All the files are included, except for TivaWare libraries, which can be easily downloaded from the web.
+Features I have used to model speech are Mel-frequency cepstral coefficients (MFCCs). Twelve of them in total, 2nd-13th. No other data has been used, except for signal's FFT magnitudes to determine if any word has been spoken.
 
+Things to do in the future: better voice activation detection, trim the training data signals (remove the silent parts), more robust microphone, add two more .c files for the sake of modularity, and do some documenting (Doxygen).
 
-Short description of MFCC: it is used for extracting the most useful components from human speech. It works by applying a filter bank of triangular filters to signal spectruum. This filterbank gives more priority to lower frequencies. 
+I will post a video showcasing its performance, sometime soon.
