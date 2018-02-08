@@ -21,3 +21,5 @@ Here are some of the errors I have been dealing with: https://e2e.ti.com/search?
 
 I am sure it is going to be of help to someone doing ASR.
 I will put up a more updated, more modular version.
+
+If you wonder how was its correctness checked, it was by comparing its results with a (almost) same Python implementation on PC.
