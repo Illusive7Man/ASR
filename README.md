@@ -14,3 +14,9 @@ Features I have used to model speech are Mel-frequency cepstral coefficients (MF
 Things to do in the future: better voice activation detection, trim the training data signals (remove the silent parts), more robust microphone, add two more .c files for the sake of modularity, and do some documenting (Doxygen).
 
 I will post a video showcasing its performance, sometime soon.
+
+
+FINAL REMARKS: The errors finaly got me. I was fixing them for about two months. I'm putting this on an indefinite hold. 
+Here are some of the errors I have been dealing with: https://e2e.ti.com/search?author=336662
+I am sure it is going to be of help for someone doing ASR.
+I will put up a more updated, more modular version.
