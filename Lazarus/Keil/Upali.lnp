@@ -1,0 +1,16 @@
+--cpu=Cortex-M4.fp
+".\main.o"
+".\sampler.o"
+".\melfilterconfig.o"
+".\mfcc.o"
+".\test_frame.o"
+".\parameters.o"
+".\forward.o"
+"C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\rvmdk\driverlib.lib"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+".\startup_tm4c123.o"
+".\system_tm4c123.o"
+--strict --scatter ".\Upali.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Upali.map" -o .\Upali.axf

@@ -1,0 +1,15 @@
+.\mfcc.o: ..\mfcc.c
+.\mfcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\mfcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\arm_math.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\mfcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\mfcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\arm_const_structs.h
+.\mfcc.o: C:\Keil_v5\ARM\CMSIS\Include\arm_common_tables.h
+.\mfcc.o: ..\mfcc.h
+.\mfcc.o: ..\settings.h
+.\mfcc.o: ..\melfilterconfig.h

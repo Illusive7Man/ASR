@@ -1,0 +1,9 @@
+.\test_frame.o: ..\test_frame.c
+.\test_frame.o: C:\Keil_v5\ARM\CMSIS\Include\arm_math.h
+.\test_frame.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\test_frame.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\test_frame.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\test_frame.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\test_frame.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\test_frame.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\test_frame.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

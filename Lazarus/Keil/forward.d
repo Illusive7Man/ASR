@@ -1,0 +1,15 @@
+.\forward.o: ..\forward.c
+.\forward.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\arm_math.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\forward.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\forward.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\forward.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\arm_const_structs.h
+.\forward.o: C:\Keil_v5\ARM\CMSIS\Include\arm_common_tables.h
+.\forward.o: ..\parameters.h
+.\forward.o: ..\forward.h
+.\forward.o: ..\parameters.h

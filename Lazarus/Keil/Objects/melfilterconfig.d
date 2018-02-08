@@ -1,0 +1,11 @@
+.\objects\melfilterconfig.o: ..\melfilterconfig.c
+.\objects\melfilterconfig.o: ..\melfilterconfig.h
+.\objects\melfilterconfig.o: ..\settings.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\CMSIS\Include\arm_math.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\melfilterconfig.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
