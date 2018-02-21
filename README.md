@@ -19,7 +19,7 @@ I will post a video showcasing its performance, sometime soon.
 FINAL REMARKS: The errors finaly got me. I was fixing them for about two months. I'm putting this on an indefinite hold. 
 Here are some of the errors I have been dealing with: https://e2e.ti.com/search?author=336662 
 
-I am sure it is going to be of help to someone doing ASR.
+I am sure it is going to be of help to someone doing ASR, with these methods and packages.
 I will put up a more updated, more modular version.
 
 If you wonder how was its correctness checked, it was done by comparing its results with a (almost) same Python implementation on PC.
