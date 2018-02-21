@@ -22,4 +22,4 @@ Here are some of the errors I have been dealing with: https://e2e.ti.com/search?
 I am sure it is going to be of help to someone doing ASR, with these methods and packages.
 I will put up a more updated, more modular version.
 
-If you wonder how was its correctness checked, it was done by comparing its results with a (almost) same Python implementation on PC.
+If you wonder how was its correctness checked, it was done by comparing its results with a (almost) same Python implementation on PC. One that works.
